@@ -28,8 +28,8 @@ def home():
             random.shuffle(password_list)
             password = "".join(password_list)
 
-            pyperclip.copy(password)
-            flash("Password generated and copied to clipboard!", "info")
+            # pyperclip.copy(password)
+            # flash("Password generated and copied to clipboard!", "info")
 
             website = request.form.get("website")
             email = request.form.get("email")
